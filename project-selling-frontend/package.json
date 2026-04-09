@@ -15,6 +15,7 @@
     "framer-motion": "^12.23.26",
     "pg": "^8.20.0",
     "pg-hstore": "^2.3.4",
+    "postgres": "^3.4.9",
     "react": "^19.2.0",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "^19.2.0",
