@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/projects";
+const API_URL = "http://project-selling-backend.onrender.com/api/projects";
 
 const createProject = (formData) => {
   return axios.post(API_URL, formData, {
