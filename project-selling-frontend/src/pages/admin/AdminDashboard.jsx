@@ -4,8 +4,7 @@ import axios from "axios";
 import AdminProjects from "./AdminProjects";
 import AdminAnalytics from "./AdminAnalytics";
 
-const API = "http://localhost:5000/api/projects";
-
+const API = "https://your-backend-url/api/projects";
 export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState("dashboard");
   const navigate = useNavigate();

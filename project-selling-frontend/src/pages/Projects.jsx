@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 
-const API = "http://localhost:5000/api/projects";
+const API = "https://your-backend-url/api/projects";
 const PER_PAGE = 6;
 
 export default function Projects() {
@@ -144,7 +144,7 @@ export default function Projects() {
             >
               {active.demoUrl && (
                 <video
-                  src={`http://localhost:5000${active.demoUrl}`}
+                  src={`https://your-backend-url${active.demoUrl}`}
                   controls
                   className="w-full aspect-video bg-black"
                 />

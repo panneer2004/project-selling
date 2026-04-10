@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/projects";
-
+const API = "https://your-backend-url/api/projects";
 export default function AdminProjects() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(false);
